@@ -132,9 +132,10 @@
 <h3>٢-٥) محادثات «نورة» (المساعِدة الذكية)</h3>
 <ul>
   <li>نصّ رسائلكِ لنورة وردودها، وعدّاد استهلاككِ لضبط حدود الاستخدام.</li>
-  <li>ملخّص وصفي موجز عن حالتكِ يُرسَل مع سؤالكِ لتكون الإجابة مناسبة: المرحلة (حامل/أم/…)،
-      أسبوع الحمل، يوم الدورة، أعمار أطفالكِ وجنسهم، وهل تُرضعين. <strong>لا يُرسَل اسمكِ ولا بريدكِ
-      ولا أسماء أطفالكِ ولا سجلاتكِ التفصيلية.</strong></li>
+  <li>بحسب المكان الذي فتحتِ منه نورة، قد نرسل سياقًا محدودًا مثل أسبوع الحمل أو عمر الطفل أو
+      يوم الدورة، وفي بعض الحالات لا نرسل أي سياق إضافي. <strong>لا يُرسَل اسمكِ ولا بريدكِ
+      ولا أسماء أطفالكِ ولا سجلات التتبّع التفصيلية.</strong></li>
+  <li>يمكنكِ مسح سجل محادثتكِ مع نورة من خيار «محادثة جديدة»، كما تُحذف بياناتكِ وفق سياسة حذف الحساب.</li>
 </ul>
 
 <h3>٢-٦) بيانات التاجر (لحسابات المتاجر والعيادات فقط)</h3>
@@ -169,7 +170,7 @@
 <table>
   <tr><th>الجهة</th><th>ما يصلها</th><th>لماذا</th></tr>
   <tr><td><strong>Supabase</strong></td><td>كل بيانات حسابكِ وسجلاتكِ وملفاتكِ</td><td>استضافة قاعدة البيانات والمصادقة والتخزين. هي البنية التي يقوم عليها التطبيق.</td></tr>
-  <tr><td><strong>Anthropic</strong> (نموذج Claude)</td><td>نصّ رسالتكِ لنورة + الملخّص الوصفي الموضّح في ٢-٥</td><td>توليد ردّ نورة. تُرسَل عبر خادمنا لا من جهازكِ مباشرة.</td></tr>
+  <tr><td><strong>Anthropic</strong> (نموذج Claude)</td><td>نصّ رسالتكِ لنورة + السياق المحدود الموضّح في ٢-٥ (إن وُجد)</td><td>توليد ردّ نورة. تُرسَل عبر خادمنا لا من جهازكِ مباشرة.</td></tr>
   <tr><td><strong>Sightengine</strong></td><td>الصور والفيديوهات التي ترفعينها في المجتمع والريلز فقط</td><td>فحص آلي للمحتوى الجنسي وحماية القاصرين قبل النشر.</td></tr>
   <tr><td><strong>Expo</strong></td><td>رمز الإشعارات الخاص بجهازكِ</td><td>إيصال إشعارات التذكير.</td></tr>
 </table>
@@ -284,9 +285,11 @@
         diapers, bathing).</li>
     <li><strong>Community content:</strong> posts, comments, questions, answers, uploaded photos and
         videos, likes, saves, poll votes, follows, and reports you submit.</li>
-    <li><strong>"Noura" AI assistant:</strong> your message text and its replies, usage counters, and a
-        short descriptive summary of your stage (pregnancy week, cycle day, children's ages and sex,
-        whether breastfeeding). Your name, email, children's names and detailed logs are never sent.</li>
+    <li><strong>"Noura" AI assistant:</strong> your message text and its replies, usage counters, and,
+        depending on where you opened Noura, limited context such as your pregnancy week, a child's
+        age, or your cycle day — and sometimes no additional context at all. Your name, email, children's
+        names and detailed tracking logs are never sent. You can clear your Noura conversation history
+        from "New chat"; your data is also deleted under the account deletion policy.</li>
     <li><strong>Merchant accounts only:</strong> business name, description, images, map location,
         contact details, products.</li>
     <li><strong>Technical:</strong> aggregated in-app usage events; push notification token if you
@@ -306,7 +309,7 @@
   <h2>3. Who we share it with</h2>
   <ul>
     <li><strong>Supabase</strong> — database, authentication and file storage (all of your data).</li>
-    <li><strong>Anthropic (Claude)</strong> — your Noura message text plus the descriptive summary above,
+    <li><strong>Anthropic (Claude)</strong> — your Noura message text plus the limited context above, if any,
         to generate a reply. Sent via our server, not from your device.</li>
     <li><strong>Sightengine</strong> — only the images and videos you upload to community posts and
         reels, for automated sexual-content and minor-safety screening before publication.</li>
