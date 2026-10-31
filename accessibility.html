@@ -29,7 +29,7 @@
   li{margin:7px 0}
   a{color:var(--brand-ink)}
   a:focus-visible{outline:3px solid var(--brand-ink); outline-offset:2px; border-radius:3px}
-  .mail{font-weight:700; text-decoration:none; direction:ltr; unicode-bidi:embed; white-space:nowrap}
+  .mail{font-weight:700; text-decoration:none; direction:ltr; unicode-bidi:embed; overflow-wrap:anywhere}
   .mail:hover{text-decoration:underline}
   .box{background:var(--brand-soft); border:1px solid #F6D3E1; border-radius:12px; padding:16px 18px; margin:18px 0}
   .box p:first-child{margin-top:0} .box p:last-child{margin-bottom:0}
@@ -79,14 +79,14 @@
   ويُعلَن بعض ما يتغيّر دون أن تنظري إليه: انقطاع الاتصال، ونتيجة السؤال اليومي، والرسائل القصيرة أسفل الشاشة.
   ومع قارئ الشاشة تبقى هذه الرسائل ظاهرة حتى تغلقيها بنفسكِ. وحلقات التقدّم تُقرأ بقيمتها.</li>
   <li><strong>حجم الخطّ وحجم العرض:</strong> يتبع التطبيق إعداد الخطّ في هاتفكِ حتى 200%، ويتكيّف فوراً دون
-  إعادة تشغيل. النصوص تلتفّ ولا تُقصّ، والنوافذ المنبثقة تُمرَّر وتبقى أزرارها ظاهرة.</li>
+  إعادة تشغيل. النصوص تلتفّ ولا تُقصّ، والنوافذ المنبثقة تُمرَّر وتبقى أزرارها ظاهرة. (استثناء في القسم الرابع.)</li>
   <li><strong>التباين:</strong> النصّ بتباين 4.5:1 على الأقلّ مع خلفيته، في الوضعين النهاري والليلي.</li>
   <li><strong>مساحة اللمس:</strong> لكل زرّ وأيقونة مساحة لمس لا تقلّ عن 44×44 نقطة، ولزرّ الرجوع 48×48.</li>
   <li><strong>تقليل الحركة:</strong> إذا فعّلتِ «إزالة الرسوم المتحركة» في إعدادات الهاتف، يتوقّف النبض والتحريك
   المتكرّر، ويظهر فيديو الجنين ثابتاً مع زرّ لتشغيله متى شئتِ.</li>
   <li><strong>الصور والوسائط:</strong> صور الجنين ومقاطعه موصوفة نصّاً بأسبوع الحمل، وصور الوصفات موصوفة،
   ولا تُنشر وصفة فيها صورة دون نصّ يشرح خطواتها.</li>
-  <li><strong>اللغة والمظهر:</strong> العربية من اليمين إلى اليسار، والإنجليزية، والوضع الليلي.</li>
+  <li><strong>اللغة والمظهر:</strong> العربية من اليمين إلى اليسار، والوضع الليلي.</li>
 </ul>
 
 <h2>4) ما لم يكتمل بعد</h2>
@@ -94,6 +94,8 @@
   <li>الصور التي ترفعها الأمهات في منشورات المجتمع لا تحمل بعدُ وصفاً نصّياً تكتبه صاحبتها.</li>
   <li>المقاطع القصيرة التي تنشرها صانعات المحتوى قد تحوي كلاماً بلا ترجمة نصّية مكتوبة.</li>
   <li>لوحات التاجرات وصانعات المحتوى والإدارة داخل التطبيق لم تُراجَع كاملةً لقارئ الشاشة بعد.</li>
+  <li>الأرقام داخل حلقة الدورة تكبر حتى 130%، وأرقام الأيام في شريط الأسبوع حتى 140%، لتبقى داخل دوائرها.</li>
+  <li>واجهة التطبيق بالإنجليزية لم تُفتح للجميع بعد؛ تُفتح حين تكتمل ترجمتها.</li>
   <li>اختبار التطبيق كاملاً بقارئ الشاشة على أكثر من جهاز ما زال جارياً، وسنحدّث هذه الصفحة بنتيجته.</li>
 </ul>
 <p>نعمل على هذه البنود، ونذكر هنا ما يُنجز منها.</p>
@@ -158,7 +160,7 @@
     reader on, those messages stay until you close them. Progress rings are read with their value.</li>
     <li><strong>Font size and display size:</strong> the app follows your phone's font setting up to 200% and
     adapts at once, without a restart. Text wraps instead of being cut off, and pop-up sheets scroll while
-    their buttons stay visible.</li>
+    their buttons stay visible. (One exception is listed in section 4.)</li>
     <li><strong>Contrast:</strong> text has a contrast ratio of at least 4.5:1 with its background, in both the
     light and the dark theme.</li>
     <li><strong>Touch targets:</strong> every button and icon has a touch area of at least 44×44 points; the
@@ -169,7 +171,7 @@
     <li><strong>Images and media:</strong> baby images and videos are described in text with the pregnancy week,
     recipe photos are described, and a recipe with a photo cannot be published without text explaining its
     steps.</li>
-    <li><strong>Language and appearance:</strong> Arabic, right to left; English; and a dark theme.</li>
+    <li><strong>Language and appearance:</strong> Arabic, right to left, and a dark theme.</li>
   </ul>
 
   <h2>4. Not complete yet</h2>
@@ -179,6 +181,9 @@
     <li>Short videos published by content creators may contain speech without written captions.</li>
     <li>The in-app dashboards for merchants, content creators and the team have not yet been fully reviewed
     for screen readers.</li>
+    <li>The numbers inside the cycle ring grow up to 130%, and the day numbers in the week strip up to 140%, so
+    they stay inside their circles.</li>
+    <li>The English interface is not open to everyone yet; it will open when its translation is complete.</li>
     <li>Full screen-reader testing of the app on more than one device is still in progress; we will update
     this page with the result.</li>
   </ul>
