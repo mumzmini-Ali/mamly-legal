@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>بيان إمكانية الوصول — Mamly | Accessibility statement</title>
+<meta name="description" content="بيان إمكانية الوصول لتطبيق Mamly: ما يدعمه لقارئ الشاشة وتكبير الخط وتقليل الحركة، وما لم يكتمل بعد، وكيف تبلغيننا بأي عائق.">
+<style>
+  /* ألوان النص هنا كلها بتباين 4.5:1 على الأقل مع الخلفية (الصفحة نفسها تخضع لما تَعِد به). */
+  :root{
+    --ink:#1A1D24; --muted:#5B6472;
+    --bg:#FFFFFF; --card:#F7F8FA; --line:#E4E7EC;
+    --brand:#D9548A; --brand-ink:#B23A6E; --brand-soft:#FDF1F6;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Segoe UI","Noto Naskh Arabic","Tahoma",system-ui,-apple-system,sans-serif;
+    font-size:17px; line-height:1.85;}
+  .wrap{max-width:820px; margin:0 auto; padding:32px 20px 80px}
+  header{border-bottom:1px solid var(--line); padding-bottom:22px; margin-bottom:8px}
+  .brand{display:flex; align-items:center; gap:10px; font-weight:700; color:var(--brand-ink); font-size:15px; letter-spacing:.3px}
+  .brand .dot{width:10px; height:10px; border-radius:50%; background:var(--brand)}
+  h1{font-size:30px; line-height:1.35; margin:14px 0 6px}
+  h2{font-size:20px; margin:38px 0 10px; padding-top:6px}
+  .meta{color:var(--muted); font-size:14px; margin:0}
+  .lede{color:var(--muted); font-size:17px}
+  ul{padding-inline-start:24px; margin:10px 0}
+  li{margin:7px 0}
+  a{color:var(--brand-ink)}
+  a:focus-visible{outline:3px solid var(--brand-ink); outline-offset:2px; border-radius:3px}
+  .mail{font-weight:700; text-decoration:none; direction:ltr; unicode-bidi:embed; white-space:nowrap}
+  .mail:hover{text-decoration:underline}
+  .box{background:var(--brand-soft); border:1px solid #F6D3E1; border-radius:12px; padding:16px 18px; margin:18px 0}
+  .box p:first-child{margin-top:0} .box p:last-child{margin-bottom:0}
+  hr{border:0; border-top:1px solid var(--line); margin:52px 0 0}
+  .en{direction:ltr; text-align:left; margin-top:44px}
+  footer{margin-top:56px; padding-top:22px; border-top:1px solid var(--line); color:var(--muted); font-size:14px}
+  @media (max-width:560px){ body{font-size:16px} h1{font-size:25px} .wrap{padding:24px 16px 64px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="brand"><span class="dot"></span> Mamly · ماملي</div>
+  <h1>بيان إمكانية الوصول</h1>
+  <p class="meta">أُعدّ في: 1 نوفمبر 2026 · آخر مراجعة: 1 نوفمبر 2026</p>
+</header>
+
+<main>
+<p class="lede">
+  نريد أن تستعمل كل أمّ تطبيق <strong>Mamly</strong> بسهولة، ومنهنّ من تستعمل قارئ الشاشة، أو خطاً كبيراً،
+  أو تتعب من الحركة على الشاشة. تشرح هذه الصفحة ما يدعمه التطبيق اليوم، وما لم يكتمل بعد، وكيف
+  تخبريننا بأي عائق تواجهينه.
+</p>
+
+<h2>1) ما يغطّيه هذا البيان</h2>
+<p>
+  تطبيق Mamly على أندرويد، في الإصدارات التي يظهر فيها رابط هذه الصفحة في «الإعدادات». لم نقيّم
+  نسخة iPhone بعد، وسنحدّث هذا البيان عند تقييمها.
+</p>
+
+<h2>2) المعيار الذي نعمل به، وأين وصلنا</h2>
+<p>
+  نتّبع إرشادات إمكانية الوصول إلى محتوى الويب <span lang="en" dir="ltr">(WCAG 2.2)</span> الصادرة عن
+  <span lang="en" dir="ltr">W3C</span>، عند المستوى <span lang="en" dir="ltr">AA</span>، كما توضّح
+  <span lang="en" dir="ltr">W3C</span> تطبيقها على تطبيقات الجوال.
+</p>
+<div class="box">
+  <p><strong>الحالة اليوم: مطابقة جزئية.</strong> أغلب ما تستعمله الأم في التطبيق يطابق هذا المستوى،
+  وأجزاء محدّدة لا تطابقه بعد، نذكرها في القسم الرابع.</p>
+</div>
+
+<h2>3) ما يدعمه التطبيق</h2>
+<p>في الشاشات التي تستعملها الأم:</p>
+<ul>
+  <li><strong>قارئ الشاشة TalkBack:</strong> لكل زرّ ومفتاح ورابط اسمٌ ودورٌ وحالة (مثل «مفعّل» أو «محدّد»).
+  ويُعلَن بعض ما يتغيّر دون أن تنظري إليه: انقطاع الاتصال، ونتيجة السؤال اليومي، والرسائل القصيرة أسفل الشاشة.
+  ومع قارئ الشاشة تبقى هذه الرسائل ظاهرة حتى تغلقيها بنفسكِ. وحلقات التقدّم تُقرأ بقيمتها.</li>
+  <li><strong>حجم الخطّ وحجم العرض:</strong> يتبع التطبيق إعداد الخطّ في هاتفكِ حتى 200%، ويتكيّف فوراً دون
+  إعادة تشغيل. النصوص تلتفّ ولا تُقصّ، والنوافذ المنبثقة تُمرَّر وتبقى أزرارها ظاهرة.</li>
+  <li><strong>التباين:</strong> النصّ بتباين 4.5:1 على الأقلّ مع خلفيته، في الوضعين النهاري والليلي.</li>
+  <li><strong>مساحة اللمس:</strong> لكل زرّ وأيقونة مساحة لمس لا تقلّ عن 44×44 نقطة، ولزرّ الرجوع 48×48.</li>
+  <li><strong>تقليل الحركة:</strong> إذا فعّلتِ «إزالة الرسوم المتحركة» في إعدادات الهاتف، يتوقّف النبض والتحريك
+  المتكرّر، ويظهر فيديو الجنين ثابتاً مع زرّ لتشغيله متى شئتِ.</li>
+  <li><strong>الصور والوسائط:</strong> صور الجنين ومقاطعه موصوفة نصّاً بأسبوع الحمل، وصور الوصفات موصوفة،
+  ولا تُنشر وصفة فيها صورة دون نصّ يشرح خطواتها.</li>
+  <li><strong>اللغة والمظهر:</strong> العربية من اليمين إلى اليسار، والإنجليزية، والوضع الليلي.</li>
+</ul>
+
+<h2>4) ما لم يكتمل بعد</h2>
+<ul>
+  <li>الصور التي ترفعها الأمهات في منشورات المجتمع لا تحمل بعدُ وصفاً نصّياً تكتبه صاحبتها.</li>
+  <li>المقاطع القصيرة التي تنشرها صانعات المحتوى قد تحوي كلاماً بلا ترجمة نصّية مكتوبة.</li>
+  <li>لوحات التاجرات وصانعات المحتوى والإدارة داخل التطبيق لم تُراجَع كاملةً لقارئ الشاشة بعد.</li>
+  <li>اختبار التطبيق كاملاً بقارئ الشاشة على أكثر من جهاز ما زال جارياً، وسنحدّث هذه الصفحة بنتيجته.</li>
+</ul>
+<p>نعمل على هذه البنود، ونذكر هنا ما يُنجز منها.</p>
+
+<h2>5) التوافق</h2>
+<ul>
+  <li>أندرويد 7.0 فأحدث. تكبير الخطّ إلى 200% يتيحه أندرويد 14 فأحدث.</li>
+  <li>يعمل التطبيق مع أدوات الهاتف: TalkBack، وحجم الخطّ، وحجم العرض، و«إزالة الرسوم المتحركة»، والمظهر الداكن.</li>
+</ul>
+
+<h2>6) كيف قيّمنا التطبيق</h2>
+<p>
+  تقييم ذاتي من فريق Mamly، لم يُجرِه طرف خارجي. يجمع ثلاثة أشياء: فحوصاً آلية تعمل على شيفرة التطبيق
+  مع كل تعديل (أسماء الأزرار وأدوارها، والتباين، ومساحات اللمس، وقيود الأسطر التي تقصّ النصّ)، وتجارب على
+  محاكي أندرويد بأحجام خطّ وعرض مختلفة حتى 200%، وتجارب يدوية على هاتف أندرويد.
+</p>
+
+<h2>7) أخبرينا بأي عائق</h2>
+<p>
+  إن واجهتِ صعوبة في أي جزء من التطبيق، راسلينا على
+  <a class="mail" href="mailto:mamly.world@gmail.com">mamly.world@gmail.com</a>،
+  أو من «الإعدادات ← تواصلي معنا». اذكري إن أمكن: الشاشة، وما حاولتِ فعله، وأداة المساعدة التي تستعملينها
+  (مثل TalkBack أو الخطّ الكبير).
+</p>
+<p>
+  نهدف إلى الردّ خلال 5 أيام عمل. وإن تعذّر عليكِ الوصول إلى معلومة في التطبيق، نرسلها لكِ بطريقة تناسبكِ.
+</p>
+
+<h2>8) تحديث هذا البيان</h2>
+<p>نراجع هذه الصفحة مع كل تحديث كبير للتطبيق، ونغيّر تاريخ «آخر مراجعة» في أعلاها.</p>
+</main>
+
+<hr>
+
+<!-- ══════════════════ ENGLISH ══════════════════ -->
+<section class="en" lang="en" dir="ltr">
+  <h1 style="font-size:26px">Accessibility statement — Mamly</h1>
+  <p class="meta">Prepared: 1 November 2026 · Last reviewed: 1 November 2026</p>
+
+  <p class="lede">We want every mother to use <strong>Mamly</strong> with ease, including mothers who use a
+  screen reader, large text, or who are affected by motion on screen. This page explains what the app
+  supports today, what is not complete yet, and how to tell us about any barrier.</p>
+
+  <h2>1. What this statement covers</h2>
+  <p>The Mamly app on Android, in the versions that show a link to this page in Settings. The iPhone version
+  has not been assessed yet; we will update this statement when it is.</p>
+
+  <h2>2. The standard we follow, and where we are</h2>
+  <p>We follow the W3C Web Content Accessibility Guidelines (WCAG) 2.2 at Level AA, as W3C explains how to
+  apply them to mobile apps.</p>
+  <div class="box">
+    <p><strong>Status today: partially conformant.</strong> Most of what mothers use in the app meets this
+    level; specific parts do not yet, and they are listed in section 4.</p>
+  </div>
+
+  <h2>3. What the app supports</h2>
+  <p>In the screens mothers use:</p>
+  <ul>
+    <li><strong>TalkBack screen reader:</strong> every button, switch and link has a name, a role and a state
+    (such as "on" or "selected"). Some changes are announced without you having to look: losing the
+    connection, the daily question's result, and short messages at the bottom of the screen. With a screen
+    reader on, those messages stay until you close them. Progress rings are read with their value.</li>
+    <li><strong>Font size and display size:</strong> the app follows your phone's font setting up to 200% and
+    adapts at once, without a restart. Text wraps instead of being cut off, and pop-up sheets scroll while
+    their buttons stay visible.</li>
+    <li><strong>Contrast:</strong> text has a contrast ratio of at least 4.5:1 with its background, in both the
+    light and the dark theme.</li>
+    <li><strong>Touch targets:</strong> every button and icon has a touch area of at least 44×44 points; the
+    back button 48×48.</li>
+    <li><strong>Reduced motion:</strong> when "Remove animations" is on in your phone's settings, pulsing and
+    repeating motion stop, and the baby video shows a still picture with a button to play it whenever you
+    choose.</li>
+    <li><strong>Images and media:</strong> baby images and videos are described in text with the pregnancy week,
+    recipe photos are described, and a recipe with a photo cannot be published without text explaining its
+    steps.</li>
+    <li><strong>Language and appearance:</strong> Arabic, right to left; English; and a dark theme.</li>
+  </ul>
+
+  <h2>4. Not complete yet</h2>
+  <ul>
+    <li>Photos that mothers upload in community posts do not yet carry a text description written by the
+    author.</li>
+    <li>Short videos published by content creators may contain speech without written captions.</li>
+    <li>The in-app dashboards for merchants, content creators and the team have not yet been fully reviewed
+    for screen readers.</li>
+    <li>Full screen-reader testing of the app on more than one device is still in progress; we will update
+    this page with the result.</li>
+  </ul>
+  <p>We are working on these items and will note here the ones we complete.</p>
+
+  <h2>5. Compatibility</h2>
+  <ul>
+    <li>Android 7.0 or later. Font scaling up to 200% is offered by Android 14 or later.</li>
+    <li>The app works with the phone's tools: TalkBack, font size, display size, "Remove animations", and the
+    dark theme.</li>
+  </ul>
+
+  <h2>6. How we assessed the app</h2>
+  <p>A self-assessment by the Mamly team, not by an outside party. It combines automated checks that run on the
+  app's code with every change (button names and roles, contrast, touch areas, and line limits that cut off
+  text), tests on an Android emulator at several font and display sizes up to 200%, and hands-on tests on an
+  Android phone.</p>
+
+  <h2>7. Tell us about a barrier</h2>
+  <p>If any part of the app is hard to use, email us at
+  <a class="mail" href="mailto:mamly.world@gmail.com">mamly.world@gmail.com</a>, or use Settings → Contact us.
+  If you can, tell us the screen, what you were trying to do, and the assistive tool you use (such as TalkBack
+  or large text).</p>
+  <p>We aim to reply within 5 working days. If you cannot reach some information in the app, we will send it to
+  you in a way that suits you.</p>
+
+  <h2>8. Updates to this statement</h2>
+  <p>We review this page with every major app update and change the "Last reviewed" date at the top.</p>
+</section>
+
+<footer>
+  Mamly · ماملي —
+  <a href="./privacy-policy.html">سياسة الخصوصية</a> ·
+  <a href="./terms.html">شروط الاستخدام</a> ·
+  <a href="./delete-account.html">حذف الحساب</a>
+</footer>
+
+</div>
+</body>
+</html>
